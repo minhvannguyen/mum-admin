@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Genre, GetGenresResponse } from "@/types/Genre";
+import { Genre, GenreRequest, GetGenresResponse } from "@/types/Genre";
 
 export const api = axios.create({
   baseURL: "https://localhost:7114/api",
@@ -25,7 +25,7 @@ export const genresAPI = {
     return response.data.data;
   },
 
-    createGenre: async (data: Genre) => {
+    createGenre: async (data: GenreRequest) => {
       try {
         const formData = new FormData();
   

@@ -13,7 +13,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
 import { toast } from "sonner";
-import { Genre } from "@/types/Genre";
+import { Genre, GenreRequest } from "@/types/Genre";
 import { genresAPI } from "@/lib/api/genresApi";
 
 type Props = {
@@ -73,7 +73,7 @@ export default function UploadGenreModal({
       if (!genre) {
         /* ===== CREATE ===== */
 
-        const requestData: Genre = {
+        const requestData: GenreRequest = {
           name,
           slug
         };

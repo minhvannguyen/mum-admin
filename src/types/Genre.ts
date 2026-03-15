@@ -1,5 +1,10 @@
 export interface Genre {
-  id?: number;
+  id: number;
+  name: string;
+  slug: string;
+}
+
+export interface GenreRequest {
   name: string;
   slug: string;
 }

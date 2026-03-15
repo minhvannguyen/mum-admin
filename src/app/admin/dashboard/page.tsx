@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { Music, Users, ListMusic, Flag } from "lucide-react"
 
-import { DashboardData, RecentSong, RecentUser } from "@/types/dashboard"
+import { DashboardData, RecentSong, RecentUser } from "@/types/Dashboard"
 import { dashboard } from "@/lib/api/adminAuthApi"
 
 type Stats = {
