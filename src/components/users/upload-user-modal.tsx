@@ -79,7 +79,7 @@ export default function UploadUserModal({
     if (path.startsWith("http://") || path.startsWith("https://")) {
       return path;
     }
-    const baseUrl = "https://localhost:7114";
+    const baseUrl = process.env.NEXT_PUBLIC_API_URL;
     return path.startsWith("/") ? `${baseUrl}${path}` : `${baseUrl}/${path}`;
   };
 

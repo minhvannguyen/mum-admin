@@ -2,7 +2,7 @@ import axios from "axios";
 import { Genre, GenreRequest, GetGenresResponse } from "@/types/Genre";
 
 export const api = axios.create({
-  baseURL: "https://localhost:7114/api",
+  baseURL: process.env.NEXT_PUBLIC_API_URL,
   headers: {
     "Content-Type": "application/json",
   },

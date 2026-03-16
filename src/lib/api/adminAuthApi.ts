@@ -1,6 +1,6 @@
 import { User } from "@/types/User";
 
-const BASE_URL = "https://localhost:7114/api/admin/auth";
+const BASE_URL = `${process.env.NEXT_PUBLIC_API_URL}/admin/auth`;
 
 export async function login(email: string, password: string) {
   const res = await fetch(`${BASE_URL}/login`, {
