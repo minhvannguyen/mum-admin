@@ -111,7 +111,7 @@ export default function UploadGenreModal({
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-52">
         <DialogHeader>
-          <DialogTitle>{isEdit ? "Edit Genre" : "Upload Genre"}</DialogTitle>
+          <DialogTitle>{isEdit ? "Chỉnh sửa thể loại" : "Thêm thể loại"}</DialogTitle>
         </DialogHeader>
 
         <form onSubmit={handleSubmit} autoComplete="off" className="space-y-6">

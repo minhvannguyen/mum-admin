@@ -169,7 +169,7 @@ export default function UploadUserModal({
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-xl w-full">
         <DialogHeader>
-          <DialogTitle>{isEdit ? "Edit User" : "Upload User"}</DialogTitle>
+          <DialogTitle>{isEdit ? "Chỉnh sửa người dùng" : "Thêm người dùng"}</DialogTitle>
         </DialogHeader>
 
         <form onSubmit={handleSubmit} autoComplete="off" className="space-y-6">

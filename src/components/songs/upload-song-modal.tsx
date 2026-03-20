@@ -213,7 +213,7 @@ export default function UploadSongModal({ song, open, onOpenChange, onSuccess }:
       <DialogContent className="max-w-xl w-full">
         <DialogHeader>
           <DialogTitle>
-            {isEdit ? "Edit Song" : "Upload Song"}
+            {isEdit ? "Chỉnh sửa bài hát" : "Thêm bài hát"}
           </DialogTitle>
         </DialogHeader>
 

@@ -88,7 +88,7 @@ export default function SongsPage() {
       {/* Header */}
 
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold">Songs Management</h1>
+        <h1 className="text-2xl font-bold">Quản lý bài hát</h1>
       </div>
 
       {/* Search */}
@@ -111,7 +111,7 @@ export default function SongsPage() {
           className="bg-gray-950 text-white border border-gray-300"
           onClick={() => handleAddSong()}
         >
-          + Add Song
+          + Thêm bài hát
         </Button>
       </div>
 

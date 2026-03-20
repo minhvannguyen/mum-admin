@@ -89,7 +89,7 @@ export default function GenresPage() {
       {/* Header */}
 
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold">Genres Management</h1>
+        <h1 className="text-2xl font-bold">Quản lý thể loại bài hát</h1>
       </div>
 
       {/* Search */}
@@ -112,7 +112,7 @@ export default function GenresPage() {
           className="bg-gray-950 text-white border border-gray-300"
           onClick={() => handleAddGenre()}
         >
-          + Add Genre
+          + Thêm thể loại
         </Button>
       </div>
 

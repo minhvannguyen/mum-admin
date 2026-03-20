@@ -33,12 +33,12 @@ import { logout } from "@/lib/api/adminAuthApi";
 
 const menuItems = [
   { title: "Dashboard", url: "/admin/dashboard", icon: LayoutDashboard },
-  { title: "Songs", url: "/admin/songs", icon: Music },
-  { title: "Playlists", url: "/admin/playlists", icon: ListMusic },
-  { title: "Users", url: "/admin/users", icon: Users },
-  { title: "Genres", url: "/admin/genres", icon: Tags },
-  { title: "Reports", url: "/admin/reports", icon: Flag },
-  { title: "Analytics", url: "/admin/analytics", icon: ChartArea },
+  { title: "QL bài hát", url: "/admin/songs", icon: Music },
+  { title: "Ql Playlists", url: "/admin/playlists", icon: ListMusic },
+  { title: "Ql người dùng", url: "/admin/users", icon: Users },
+  { title: "Ql thể loại", url: "/admin/genres", icon: Tags },
+  { title: "QL đơn tố cáo", url: "/admin/reports", icon: Flag },
+  { title: "Phân tích", url: "/admin/analytics", icon: ChartArea },
 ];
 
 export function AdminSidebar() {

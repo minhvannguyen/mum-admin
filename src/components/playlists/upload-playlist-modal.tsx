@@ -180,7 +180,7 @@ export default function UploadPlaylistModal({
 
         <DialogHeader>
           <DialogTitle>
-            {isEdit ? "Edit Playlist" : "Create Playlist"}
+            {isEdit ? "Chỉnh sửa Playlist" : "Thêm Playlist"}
           </DialogTitle>
         </DialogHeader>
 

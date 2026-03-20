@@ -87,7 +87,7 @@ export default function PlaylistsPage() {
       {/* Header */}
 
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold">Playlists Management</h1>
+        <h1 className="text-2xl font-bold">Quản lý Playlists</h1>
       </div>
 
       {/* Search */}
@@ -110,7 +110,7 @@ export default function PlaylistsPage() {
           className="bg-gray-950 text-white border border-gray-300"
           onClick={() => handleAddPlaylist()}
         >
-          + Add Playlist
+          + Thêm Playlist
         </Button>
       </div>
 

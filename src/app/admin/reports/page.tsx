@@ -89,7 +89,7 @@ export default function ReportsPage() {
       {/* Header */}
 
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold">Reports Management</h1>
+        <h1 className="text-2xl font-bold">Quản lý đơn tố cáo</h1>
       </div>
 
       {/* Search */}

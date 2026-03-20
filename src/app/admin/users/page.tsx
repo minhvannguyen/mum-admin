@@ -89,7 +89,7 @@ export default function UsersPage() {
       {/* Header */}
 
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold">Users Management</h1>
+        <h1 className="text-2xl font-bold">Quản lý người dùng</h1>
       </div>
 
       {/* Search */}
@@ -112,7 +112,7 @@ export default function UsersPage() {
           className="bg-gray-950 text-white border border-gray-300"
           onClick={() => handleAddUser()}
         >
-          + Add User
+          + Thêm người dùng
         </Button>
       </div>
 

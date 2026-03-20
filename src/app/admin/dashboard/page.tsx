@@ -60,7 +60,7 @@ export default function DashboardPage() {
       <div>
         <h1 className="text-3xl font-bold">Dashboard</h1>
         <p className="text-gray-500">
-          Overview of your music platform
+          Tổng quan về nền tảng âm nhạc của bạn
         </p>
       </div>
 
@@ -69,10 +69,10 @@ export default function DashboardPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
 
-        <StatCard title="Songs" value={stats.songs} icon={<Music size={20}/>}/>
-        <StatCard title="Users" value={stats.users} icon={<Users size={20}/>}/>
+        <StatCard title="Tổng bài hát" value={stats.songs} icon={<Music size={20}/>}/>
+        <StatCard title="Tổng người dùng" value={stats.users} icon={<Users size={20}/>}/>
         <StatCard title="Playlists" value={stats.playlists} icon={<ListMusic size={20}/>}/>
-        <StatCard title="Reports" value={stats.reports} icon={<Flag size={20}/>}/>
+        <StatCard title="Tổng đơn tố cáo" value={stats.reports} icon={<Flag size={20}/>}/>
 
       </div>
 
@@ -81,7 +81,7 @@ export default function DashboardPage() {
 
       <div className="grid md:grid-cols-2 gap-6">
 
-        <Box title="Recent Songs">
+        <Box title="Bài hát đã tải gần đây">
 
           {recentSongs.map(song => (
 
@@ -104,7 +104,7 @@ export default function DashboardPage() {
         </Box>
 
 
-        <Box title="Recent Users">
+        <Box title="Tài khoản người dùng mới tạo gần đây">
 
           {recentUsers.map(user => (
 
